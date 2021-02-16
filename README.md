@@ -1,7 +1,5 @@
 # LoanAdvisor
-<<<<<<< HEAD
 
-=======
 ## Current
 -- Ongoing --
 
@@ -15,4 +13,4 @@ An improved work is ongoing based on the following reasons:
 * Inclusion of feature selection which would correct the presumed misleading information of the recorded accuracies of 98% and 99%.
 * Correction of the wrong usage of "Accuracy" as an evaluation metric when there is class imbalance and its distribution in the test data is not accounted for.
 
->>>>>>> a870e95623d201e441702f8ba2da1ee7fd3a7e3a
+
