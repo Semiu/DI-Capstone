@@ -7,7 +7,7 @@ The `decision tree induction model/loanvisor.py`file contains implementation of 
 
 Supporting explanations, though the code is well-commented, can be found in `decision tree induction model/loanvisorexplanation.txt`.
 
-An improved work is ongoing based on the following explanation:
+An improved work is ongoing based on the following reasons:
 * An appropriate cross-validation technique which should account for the class distribution and imbalance.
 * No mention of feature selection which suggest that the recorded accuracies of 98% and 99% are misleading.
 * The wrong of "Accuracy" as an evaluation metric when there is class imbalance and its distribution in the test data is not accounted for.
