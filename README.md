@@ -1,27 +1,14 @@
 # LoanAdvisor
-Machine learning-based intelligent web app to predict loan default as a way of assisting loan administrators in related decision making. 
----LoanAdvisor/ Data Mining Model for Predicting Loan Default---
+## Current
+-- Ongoing
 
-This guide explains how loanvisor.py file (in the decision tree induction model folder) is expected to be executed: decision tree induction model/loanvisor.py
+## First work
+The `decision tree induction model/loanvisor.py`file contains implementation of the loan prediction model among peer-to-peer lending communities, published (here.)[https://www.researchgate.net/profile/Abdul-Gilal/publication/336775046_A_Boosted_Decision_Tree_Model_for_Predicting_Loan_Default_in_P2P_Lending_Communities/links/5db1a569299bf111d4c0a2f8/A-Boosted-Decision-Tree-Model-for-Predicting-Loan-Default-in-P2P-Lending-Communities.pdf]
 
-1. The dataset can be downloaded from the link provided in line 12 of the loanvisor.py script.
+Supporting explanations, though the code is well-commented, can be found in `decision tree induction model/loanvisorexplanation.txt`.
 
- 
-2. loanvisor.py is created in Spyder Python interpreter, but can be executed in any python interpreter.
-   It is a procedural code. This implies that it is to be executed line-by-line because of the sequential dependencies of the codes.
-   Chunks of lines of code are delineated by the comments can be run collectively.
+An improved work is ongoing based on the following explanation:
+* An appropriate cross-validation technique which should account for the class distribution and imbalance.
+* No mention of feature selection which suggest that the recorded accuracies of 98% and 99% are misleading.
+* The wrong of "Accuracy" as an evaluation metric when there is class imbalance and its distribution in the test data is not accounted for.
 
-   If the code is to be run in a Jupyter notebook, each chunk of code, separated by the comments, could be in each cell of the Jupyter notebook.
-
-3. The dataset used in this study, SBAnational.csv, must be in the same directory as the loanvisor.py, or appropriate path (to be) specified in line 21 of the python script.
-
-
-4. The webapp folder contains html, css and JavaScript files, and a model.py file. The index.html and form.html files give a clue of how the predictive system would work. 
-(Note: data fields in the form.html are dummy and not model-driven)
-
-
-4. All the contents of the webapp are expected to be in the same folder to accurate rendering of the the pages.
-
-
-5. This is still work in progress: The future plan is to have the prediction model, after being thoroughly finetuned, deployed in the cloud, like AWS EC2 instance
-   and have a real feel of having predictive model in the production codebase.
