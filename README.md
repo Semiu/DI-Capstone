@@ -1,7 +1,7 @@
 # LoanAdvisor
 
 ## Current
--- Ongoing --
+This goes into the `LoanAdvisor` folder. Details to be updated.
 
 ## First work
 The `decision tree induction model/loanvisor.py`file contains implementation of the loan prediction model among peer-to-peer lending communities, published [here.](https://www.researchgate.net/profile/Abdul-Gilal/publication/336775046_A_Boosted_Decision_Tree_Model_for_Predicting_Loan_Default_in_P2P_Lending_Communities/links/5db1a569299bf111d4c0a2f8/A-Boosted-Decision-Tree-Model-for-Predicting-Loan-Default-in-P2P-Lending-Communities.pdf)
