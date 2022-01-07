@@ -12,6 +12,6 @@ The data used for this project can be downloaded from [here.](http://web.archive
 
 Currently, the preliminary work done for the proposal stage is arranged in two (2) folders, numbered in order.
 
-`1-data-cleaning-EDA` folder contains notebooks that performed data merging, different data cleaning processes, and the exploratory data analysis (EDA). The `datamergingandcleaning` notebook contains scripts for the merging of the dataset, cleansing, and the EDA.
+`1-data-cleaning-EDA` folder contains notebooks that performed data merging, different data cleaning processes, and the exploratory data analysis (EDA). The `datamerging` notebook contains scripts for the merging of the dataset, while the `datacleansing-EDA` notebook contains scripts for the data cleansing, and the EDA.
 
 `2-basic-model` folder contains notebooks for the baseline models of the project.
