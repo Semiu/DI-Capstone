@@ -54,9 +54,9 @@ def calc_mean_auc():
     #the number of folds created is 10
     for i in range(10):
         list_auc.append(run_lr(i))
-    #return sum(list_auc)/len(list_auc)
-    return list_auc.mean()
+    return sum(list_auc)/len(list_auc)
+    
 
 if __name__ == "__main__":
-    calc_mean_auc()
+    print(calc_mean_auc())
         
