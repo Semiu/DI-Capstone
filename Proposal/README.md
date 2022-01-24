@@ -15,3 +15,5 @@ Currently, the preliminary work done for the proposal stage is arranged in two (
 `1-data-cleaning-EDA` folder contains notebooks that performed data merging, different data cleaning processes, and the exploratory data analysis (EDA). The `datamerging` notebook contains scripts for the merging of the dataset, while the `datacleansing` notebook contains scripts for the data cleansing. Lastly, the `eda-cv` notebook contains script for the EDA and cross-validation data generation.
 
 `2-basic-model` folder contains notebooks for the baseline models of the project. A logisitic regression model is developed by the script in `log_regression.py` file.
+
+The `pitch-slide-DI` file is my single page pitch silde for the finalist interview of the Spring 2022 fellowship cohort. 
