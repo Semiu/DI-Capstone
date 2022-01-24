@@ -1,5 +1,5 @@
 # DI-Capstone
-Data Incubator Capstone Project Spring 2022 Cohort
+Data Incubator Capstone Project *Spring 2022 Cohort*
 
 Lender, a machine learning-based peer-to-peer lending decision support application.
 
