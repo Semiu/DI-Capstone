@@ -16,4 +16,4 @@ Currently, the preliminary work done for the proposal stage is arranged in two (
 
 `2-basic-model` folder contains notebooks for the baseline models of the project. A logisitic regression model is developed by the script in `log_regression.py` file.
 
-The `pitch-deck-DI` file is my single page pitch silde for the presentation of the finalist interview for the Spring 2022 fellowship cohort. 
+The `pitch-deck-DI` file is my single page pitch silde for the finalists' interview presentation.
