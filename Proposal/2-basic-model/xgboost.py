@@ -14,7 +14,7 @@ import joblib
 train_datasets = pd.read_csv(r"F:\Dataset\Lendingclub\stratifiedLCloandata.csv", low_memory = False)
 
 #All columns except 'is_safe' and 'stratkfold' as training features
-train_features = [tf for tf in train_datasets.columns if tf not in ('is_safe', 'stratkfold')]
+train_features = [tf for tf in train_datasets.columns if tf not in ('is_safe', 'stratkfold', 'policy_code')]
 
 #Function for Logistic Regression Classification
 def run_xgboost(fold):
