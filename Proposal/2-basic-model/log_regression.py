@@ -6,7 +6,7 @@ Created on Sun Jan  9 19:47:59 2022
 """
 #Import required libraries 
 import pandas as pd
-
+import joblib
 from sklearn import linear_model, metrics, preprocessing
 
 
@@ -45,6 +45,9 @@ def run_lr(fold):
 
   #Get the ROC AUC score
   auc = metrics.roc_auc_score(train_datasets_valid.is_safe.values, valid_preds)
+  
+  #save the model
+  joblib.dump(lr_model, f"../ml-models/lr_model{fold}.bin")
 
   return auc
 
