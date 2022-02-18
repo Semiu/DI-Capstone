@@ -1,5 +1,3 @@
-### Capstone Project Proposal - A partial requirement for the Data Incubator's Spring 2022 Fellowship application
-
 Lender, a machine learning-based peer-to-peer lending decision support application. 
 
 It leverages both the predictive and prescriptive strengths of machine learning models to classify loan applications as safe or unsafe and prescribe what can be done for an unsafe application to be classified safe in future re-application. 
