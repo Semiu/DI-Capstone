@@ -19,5 +19,3 @@ The Area Under Curve values for the Logistic Regression and XGBoost models are 0
 `3-features-ranking` folder contains a notebook for the features importance ranking of the loan data using the XGBoost feature importance function.
 
 The models generated for each of folds for both the logistic regression and xgboost models are saved in the `ml-models` folder.
-
-The `pitch-deck-DI` file is my single page pitch silde for the finalists' interview presentation.
