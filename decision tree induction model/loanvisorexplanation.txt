@@ -1,0 +1,14 @@
+---LoanAdvisor/ Data Mining Model for Predicting Loan Default---
+
+This guide explains how loanvisor.py file (in the decision tree induction model folder) is expected to be executed: decision tree induction model/loanvisor.py
+
+1. The dataset can be downloaded from the link provided.
+
+ 
+2. loanvisor.py is created in Spyder Python interpreter, but can be executed in any python interpreter.
+   It is a procedural code. This implies that it is to be executed line-by-line because of the sequential dependencies of the codes.
+   Chunks of lines of code are delineated by the comments can be run collectively.
+
+   If the code is to be run in a Jupyter notebook, each chunk of code, separated by the comments, could be in each cell of the Jupyter notebook.
+
+3. The dataset used in this study, SBAnational.csv, must be in the same directory as the loanvisor.py, or appropriate path (to be) specified in the python script.
