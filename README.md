@@ -16,6 +16,3 @@ An improved work, located [here](https://github.com/Semiu/Lender), is done based
 * The need for appropriate cross-validation technique which should account for the class distribution and imbalance.
 * Inclusion of feature selection which would correct the presumed misleading information of the recorded accuracies of 98% and 99%.
 * Correction of the wrong usage of "Accuracy" as an evaluation metric when there is class imbalance and its distribution in the test data is not accounted for.
-
-
->>>>>>> LoanAdvisor/master
